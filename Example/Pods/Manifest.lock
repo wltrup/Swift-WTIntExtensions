@@ -1,5 +1,5 @@
 PODS:
-  - WTBoolExtensions (0.1.0)
+  - WTBoolExtensions (1.0.0)
 
 DEPENDENCIES:
   - WTBoolExtensions (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  WTBoolExtensions: b0e291929f3244b2e85a8a1c1a3417af01f087f8
+  WTBoolExtensions: de02c5967d6575efc0b3d0c8fd2e11300ac70aca
 
 PODFILE CHECKSUM: 4e4833d5887ef987e4df25e87405dc0ff3ae47fd
 

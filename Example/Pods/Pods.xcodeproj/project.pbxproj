@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		29AAC57ECCC238CD66463DC993970BAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		8D0C0513E4AEFB5EB1932D5692461524 /* WTBoolExtensions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8EF4366FC2DE09CD971C431A825EAB7 /* WTBoolExtensions-dummy.m */; };
-		A6FBD1980703FC0AC0C84B8F790DE522 /* WTBoolExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DC6E285BA2082F69D3A6B41CC750DB /* WTBoolExtensions.swift */; };
+		55DDA2839542C88BBFC7CE7E89C9046D /* WTBoolExtensions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8EF4366FC2DE09CD971C431A825EAB7 /* WTBoolExtensions-dummy.m */; };
 		C1841D2A9C05894A42C5C79801292A4C /* WTBoolExtensions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB5C50A97723BCF94B053C64FE823225 /* WTBoolExtensions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CFB89DEFBB0424CD4A36D211434577E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		D5891CDED62E4FB22E3EE39A7A560C59 /* WTBoolExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A74A34F8A9AD606D8E5D9C2A504C425 /* WTBoolExtensions.swift */; };
 		DD21B01960A7682F25A6A5745AC0301C /* Pods-WTBoolExtensions_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EB1F9AF07AE3A785AE991BE3AC57C296 /* Pods-WTBoolExtensions_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F413CA73A5FF1DB6A4E7A1123D96C88F /* Pods-WTBoolExtensions_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7678785C7B46017086715D37D98DD6DA /* Pods-WTBoolExtensions_Tests-dummy.m */; };
 /* End PBXBuildFile section */
@@ -29,25 +29,25 @@
 /* Begin PBXFileReference section */
 		1090B42358347E85782B924847C19A5F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1BA2D3A21E4B3F895C9EF15A471BD487 /* Pods-WTBoolExtensions_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WTBoolExtensions_Tests-resources.sh"; sourceTree = "<group>"; };
-		2A50D4CE182DAB778ACCF266D5941C78 /* WTBoolExtensions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = WTBoolExtensions.modulemap; sourceTree = "<group>"; };
+		2A50D4CE182DAB778ACCF266D5941C78 /* WTBoolExtensions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = WTBoolExtensions.modulemap; sourceTree = "<group>"; };
 		3231226EEABEA706D9DC9E7CACDA1A72 /* WTBoolExtensions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WTBoolExtensions-prefix.pch"; sourceTree = "<group>"; };
 		60A1D20F4CB682214B62B106712968A7 /* Pods-WTBoolExtensions_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WTBoolExtensions_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		662CC14BD8293047770A3D5460E656EF /* Pods-WTBoolExtensions_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WTBoolExtensions_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7678785C7B46017086715D37D98DD6DA /* Pods-WTBoolExtensions_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WTBoolExtensions_Tests-dummy.m"; sourceTree = "<group>"; };
-		813FA0D5F49EA6777AB1AC80533C31A6 /* WTBoolExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WTBoolExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		813FA0D5F49EA6777AB1AC80533C31A6 /* WTBoolExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WTBoolExtensions.framework; path = WTBoolExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		819F99D80786E4EEAF87CB244818BA4F /* Pods-WTBoolExtensions_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WTBoolExtensions_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		84785A8D3933B81B2E573A91BA2EBA69 /* Pods-WTBoolExtensions_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WTBoolExtensions_Tests.modulemap"; sourceTree = "<group>"; };
+		84785A8D3933B81B2E573A91BA2EBA69 /* Pods-WTBoolExtensions_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WTBoolExtensions_Tests.modulemap"; sourceTree = "<group>"; };
 		848C74700E93D9C5595C9671D109C702 /* Pods-WTBoolExtensions_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WTBoolExtensions_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8A74A34F8A9AD606D8E5D9C2A504C425 /* WTBoolExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WTBoolExtensions.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		96BD59FE00C3750E00431F2873C8ABE1 /* Pods-WTBoolExtensions_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WTBoolExtensions_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		AB5C50A97723BCF94B053C64FE823225 /* WTBoolExtensions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WTBoolExtensions-umbrella.h"; sourceTree = "<group>"; };
-		B4DC6E285BA2082F69D3A6B41CC750DB /* WTBoolExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WTBoolExtensions.swift; sourceTree = "<group>"; };
 		B81B3674B5435EA8A72F593850DE2178 /* WTBoolExtensions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WTBoolExtensions.xcconfig; sourceTree = "<group>"; };
 		C8EF4366FC2DE09CD971C431A825EAB7 /* WTBoolExtensions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WTBoolExtensions-dummy.m"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D471A10F9E9C1BA3AFEC1F170A721901 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB1F9AF07AE3A785AE991BE3AC57C296 /* Pods-WTBoolExtensions_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WTBoolExtensions_Tests-umbrella.h"; sourceTree = "<group>"; };
-		EB2C80C3A0A962E5F7E56BAB592D2315 /* Pods_WTBoolExtensions_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WTBoolExtensions_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB2C80C3A0A962E5F7E56BAB592D2315 /* Pods_WTBoolExtensions_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WTBoolExtensions_Tests.framework; path = "Pods-WTBoolExtensions_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,19 +148,12 @@
 			path = "Example/Pods/Target Support Files/WTBoolExtensions";
 			sourceTree = "<group>";
 		};
-		80ACDD89C0BBF132A3494E1B4FC1A03D /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				B4DC6E285BA2082F69D3A6B41CC750DB /* WTBoolExtensions.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		8336AC8A13C49EC8B9D3902B5C70AC93 /* WTBoolExtensions */ = {
 			isa = PBXGroup;
 			children = (
-				80ACDD89C0BBF132A3494E1B4FC1A03D /* Classes */,
+				BEC762080744D41349086442293482F6 /* Classes */,
 			);
+			name = WTBoolExtensions;
 			path = WTBoolExtensions;
 			sourceTree = "<group>";
 		};
@@ -170,6 +163,15 @@
 				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BEC762080744D41349086442293482F6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8A74A34F8A9AD606D8E5D9C2A504C425 /* WTBoolExtensions.swift */,
+			);
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		CCAC5FE3E64E4981351950328FF6E004 /* Development Pods */ = {
@@ -224,7 +226,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8EB29E63F45E22104472BC4516F6E329 /* Build configuration list for PBXNativeTarget "WTBoolExtensions" */;
 			buildPhases = (
-				17926C10CAB9203E61A2D5948D4D88EA /* Sources */,
+				C571318B66B84A269D4D578FE306A625 /* Sources */,
 				286F6554D6CCD76B5CBC6FE47FC197AC /* Frameworks */,
 				ECE4779ABBAACD894BC77D942FA15F31 /* Headers */,
 			);
@@ -245,14 +247,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
-				TargetAttributes = {
-					0BB6C0ACC7618EA0CB789D937CCC4AC4 = {
-						LastSwiftMigration = 0810;
-					};
-					DE9BB1C3949E809A89DC3B1B8D9182BC = {
-						LastSwiftMigration = 0810;
-					};
-				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -273,20 +267,20 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		17926C10CAB9203E61A2D5948D4D88EA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A6FBD1980703FC0AC0C84B8F790DE522 /* WTBoolExtensions.swift in Sources */,
-				8D0C0513E4AEFB5EB1932D5692461524 /* WTBoolExtensions-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		577E5A2B5A8616688FBA11EF4EBF00F5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F413CA73A5FF1DB6A4E7A1123D96C88F /* Pods-WTBoolExtensions_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C571318B66B84A269D4D578FE306A625 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55DDA2839542C88BBFC7CE7E89C9046D /* WTBoolExtensions-dummy.m in Sources */,
+				D5891CDED62E4FB22E3EE39A7A560C59 /* WTBoolExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,39 +296,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		083C1A4C2EC606F623EB19122A280C4F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B81B3674B5435EA8A72F593850DE2178 /* WTBoolExtensions.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/WTBoolExtensions/WTBoolExtensions-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WTBoolExtensions/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/WTBoolExtensions/WTBoolExtensions.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = WTBoolExtensions;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		7B0581F537EACEE7B7A37E71E823E15A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 819F99D80786E4EEAF87CB244818BA4F /* Pods-WTBoolExtensions_Tests.debug.xcconfig */;
@@ -365,7 +326,6 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -401,7 +361,6 @@
 				PRODUCT_NAME = Pods_WTBoolExtensions_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -492,7 +451,40 @@
 			};
 			name = Debug;
 		};
-		F47EBCDCBF111BC819D6C9EE97DE28BF /* Release */ = {
+		AAFE3197BDFDAF376EE9F90B33A46618 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B81B3674B5435EA8A72F593850DE2178 /* WTBoolExtensions.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WTBoolExtensions/WTBoolExtensions-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WTBoolExtensions/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WTBoolExtensions/WTBoolExtensions.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = WTBoolExtensions;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D949592952A0676CF61407F62E324241 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B81B3674B5435EA8A72F593850DE2178 /* WTBoolExtensions.xcconfig */;
 			buildSettings = {
@@ -539,8 +531,8 @@
 		8EB29E63F45E22104472BC4516F6E329 /* Build configuration list for PBXNativeTarget "WTBoolExtensions" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				083C1A4C2EC606F623EB19122A280C4F /* Debug */,
-				F47EBCDCBF111BC819D6C9EE97DE28BF /* Release */,
+				AAFE3197BDFDAF376EE9F90B33A46618 /* Debug */,
+				D949592952A0676CF61407F62E324241 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

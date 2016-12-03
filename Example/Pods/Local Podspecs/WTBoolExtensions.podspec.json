@@ -1,9 +1,9 @@
 {
   "name": "WTBoolExtensions",
-  "version": "0.1.0",
-  "summary": "A short description of WTBoolExtensions.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/WTBoolExtensions",
+  "version": "1.0.0",
+  "summary": "WTBoolExtensions adds a method to generate pseudo-random boolean values.",
+  "description": "WTBoolExtensions adds a method to generate uniformly-distributed pseudo-random boolean values.",
+  "homepage": "https://github.com/wltrup/WTBoolExtensions",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,8 +12,8 @@
     "Wagner Truppel": "trupwl@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/WTBoolExtensions.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/wltrup/WTBoolExtensions.git",
+    "tag": "1.0.0"
   },
   "platforms": {
     "ios": "8.0"
