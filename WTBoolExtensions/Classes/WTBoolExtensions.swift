@@ -43,7 +43,7 @@ import Foundation
 
 public extension Bool
 {
-    /// Returns a uniformly-distributed random value.
+    /// Returns a uniformly-distributed pseudo-random value.
     public static var random: Bool
     {
         let value = Double(arc4random_uniform(UInt32.max)) / Double(UInt32.max - 1)

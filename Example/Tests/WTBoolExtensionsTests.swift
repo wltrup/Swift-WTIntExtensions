@@ -13,7 +13,7 @@ import WTBoolExtensions
 
 class WTBoolExtensionsTests: XCTestCase
 {
-    /// Tests that uniform random boolean values satisfy the
+    /// Tests that uniform pseudo-random boolean values satisfy the
     /// properties of a uniform continuous distribution, namely,
     /// that approximately half of the generated booleans are `true`.
     func test_random()
