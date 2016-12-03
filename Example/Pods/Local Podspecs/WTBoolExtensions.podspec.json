@@ -1,0 +1,22 @@
+{
+  "name": "WTBoolExtensions",
+  "version": "0.1.0",
+  "summary": "A short description of WTBoolExtensions.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/WTBoolExtensions",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Wagner Truppel": "trupwl@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/WTBoolExtensions.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "WTBoolExtensions/Classes/**/*"
+}

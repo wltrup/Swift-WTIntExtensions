@@ -1,0 +1,16 @@
+PODS:
+  - WTBoolExtensions (0.1.0)
+
+DEPENDENCIES:
+  - WTBoolExtensions (from `../`)
+
+EXTERNAL SOURCES:
+  WTBoolExtensions:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WTBoolExtensions: b0e291929f3244b2e85a8a1c1a3417af01f087f8
+
+PODFILE CHECKSUM: 4e4833d5887ef987e4df25e87405dc0ff3ae47fd
+
+COCOAPODS: 1.1.1
