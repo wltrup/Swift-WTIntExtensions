@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		607FACEC1AFB9204008FA782 /* WTBoolExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* WTBoolExtensionsTests.swift */; };
 		EEB3EF2C3122094CFBD8A466 /* Pods_WTBoolExtensions_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 026F5ABD38EC47FF7DC7B6A7 /* Pods_WTBoolExtensions_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -16,7 +16,7 @@
 		1CFD576C7506E2FD669EF51C /* WTBoolExtensions.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WTBoolExtensions.podspec; path = ../WTBoolExtensions.podspec; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* WTBoolExtensions_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WTBoolExtensions_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		607FACEB1AFB9204008FA782 /* WTBoolExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTBoolExtensionsTests.swift; sourceTree = "<group>"; };
 		649E175066A7189F9D8EC2B3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		9A53EC712AD0F03E028380B6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A0731DCB61A7B3573B1A0F70 /* Pods-WTBoolExtensions_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WTBoolExtensions_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WTBoolExtensions_Tests/Pods-WTBoolExtensions_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -66,7 +66,7 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
+				607FACEB1AFB9204008FA782 /* WTBoolExtensionsTests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
 			path = Tests;
@@ -219,7 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				607FACEC1AFB9204008FA782 /* WTBoolExtensionsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

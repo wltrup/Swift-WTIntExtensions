@@ -5,11 +5,13 @@
 [![License](https://img.shields.io/cocoapods/l/WTBoolExtensions.svg?style=flat)](http://cocoapods.org/pods/WTBoolExtensions)
 [![Platform](https://img.shields.io/cocoapods/p/WTBoolExtensions.svg?style=flat)](http://cocoapods.org/pods/WTBoolExtensions)
 
-## Example
+## What
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+**WTBoolExtensions** adds a method to generate uniformly-distributed pseudo-random boolean values.
 
-## Requirements
+## Tests
+
+**WTBoolExtensions** adds 1 extension, fully tested by 1 test with 100% coverage.
 
 ## Installation
 

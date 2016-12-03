@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WTBoolExtensions'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of WTBoolExtensions.'
+  s.version          = '1.0.0'
+  s.summary          = 'WTBoolExtensions adds a method to generate pseudo-random boolean values.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+    WTBoolExtensions adds a method to generate uniformly-distributed pseudo-random boolean values.
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/WTBoolExtensions'
+  s.homepage         = 'https://github.com/wltrup/WTBoolExtensions'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Wagner Truppel' => 'trupwl@gmail.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/WTBoolExtensions.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/wltrup/WTBoolExtensions.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
