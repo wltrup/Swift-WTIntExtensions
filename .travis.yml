@@ -4,12 +4,10 @@
 
 language: objective-c
 osx_image: xcode8
-script: — xcodebuild clean build -workspace WTIntExtensions.xcworkspace -scheme WTIntExtensions -destination “platform=iOS Simulator,name=iPhone 5S”
 # cache: cocoapods
 # podfile: Example/Podfile
 # before_install:
 # - gem install cocoapods # Since Travis is not always on latest version
 # - pod install --project-directory=Example
-script:
-- set -o pipefail && xcodebuild test -workspace Example/WTIntExtensions.xcworkspace -scheme WTIntExtensions-Example -sdk iphonesimulator9.3 ONLY_ACTIVE_ARCH=NO | xcpretty
+script: — xcodebuild clean build -workspace WTIntExtensions.xcworkspace -scheme WTIntExtensions -destination “platform=iOS Simulator,name=iPhone 5S”
 - pod lib lint
