@@ -7,7 +7,11 @@
 
 ## What
 
-**WTBoolExtensions** adds a method to generate uniformly-distributed pseudo-random boolean values.
+**WTBoolExtensions** adds a method to generate uniformly-distributed pseudo-random boolean values:
+
+```swift
+public static var random: Bool { get }
+```
 
 ## Tests
 
@@ -15,7 +19,7 @@
 
 ## Installation
 
-WTBoolExtensions is available through [CocoaPods](http://cocoapods.org). To install
+**WTBoolExtensions** is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
@@ -28,4 +32,4 @@ Wagner Truppel, trupwl@gmail.com
 
 ## License
 
-WTBoolExtensions is available under the MIT license. See the LICENSE file for more info.
+**WTBoolExtensions** is available under the MIT license. See the LICENSE file for more info.
