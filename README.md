@@ -1,6 +1,6 @@
 # WTIntExtensions
 
-[![CI Status](http://img.shields.io/travis/Wagner Truppel/WTIntExtensions.svg?style=flat)](https://travis-ci.org/Wagner Truppel/WTIntExtensions)
+[![CI Status](http://img.shields.io/travis/Wagner Truppel/WTIntExtensions.svg?style=flat)](https://travis-ci.org/Wagner Truppel/Swift-WTIntExtensions)
 [![Version](https://img.shields.io/cocoapods/v/WTIntExtensions.svg?style=flat)](http://cocoapods.org/pods/WTIntExtensions)
 [![License](https://img.shields.io/cocoapods/l/WTIntExtensions.svg?style=flat)](http://cocoapods.org/pods/WTIntExtensions)
 [![Platform](https://img.shields.io/cocoapods/p/WTIntExtensions.svg?style=flat)](http://cocoapods.org/pods/WTIntExtensions)
