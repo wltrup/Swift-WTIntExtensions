@@ -4,7 +4,7 @@
 
 language: objective-c
 osx_image: xcode8
-script: — xcodebuild clean build -workspace WTIntExtensions.xcworkspace -scheme WTIntExtensions -destination “platform=iOS Simulator,name=iPhone 6S”
+script: — xcodebuild clean build -workspace WTIntExtensions.xcworkspace -scheme WTIntExtensions -destination “platform=iOS Simulator,name=iPhone 5S”
 # cache: cocoapods
 # podfile: Example/Podfile
 # before_install:
