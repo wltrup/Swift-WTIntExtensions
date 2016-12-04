@@ -1,29 +1,26 @@
-# WTBoolExtensions
+# WTIntExtensions
 
-[![CI Status](http://img.shields.io/travis/Wagner Truppel/WTBoolExtensions.svg?style=flat)](https://travis-ci.org/Wagner Truppel/WTBoolExtensions)
-[![Version](https://img.shields.io/cocoapods/v/WTBoolExtensions.svg?style=flat)](http://cocoapods.org/pods/WTBoolExtensions)
-[![License](https://img.shields.io/cocoapods/l/WTBoolExtensions.svg?style=flat)](http://cocoapods.org/pods/WTBoolExtensions)
-[![Platform](https://img.shields.io/cocoapods/p/WTBoolExtensions.svg?style=flat)](http://cocoapods.org/pods/WTBoolExtensions)
+[![CI Status](http://img.shields.io/travis/Wagner Truppel/WTIntExtensions.svg?style=flat)](https://travis-ci.org/Wagner Truppel/WTIntExtensions)
+[![Version](https://img.shields.io/cocoapods/v/WTIntExtensions.svg?style=flat)](http://cocoapods.org/pods/WTIntExtensions)
+[![License](https://img.shields.io/cocoapods/l/WTIntExtensions.svg?style=flat)](http://cocoapods.org/pods/WTIntExtensions)
+[![Platform](https://img.shields.io/cocoapods/p/WTIntExtensions.svg?style=flat)](http://cocoapods.org/pods/WTIntExtensions)
 
 ## What
 
-**WTBoolExtensions** adds a method to generate uniformly-distributed pseudo-random boolean values:
+**WTIntExtensions** adds methods to generate uniformly-distributed pseudo-random integer values:
 
 ```swift
-public static var random: Bool { get }
+public static func random(_ a: Int, _ b: Int) -> Int
+public static func randomNonZero(_ a: Int, _ b: Int) -> Int
 ```
-
-## Tests
-
-**WTBoolExtensions** adds 1 extension, fully tested by 1 test with 100% coverage.
 
 ## Installation
 
-**WTBoolExtensions** is available through [CocoaPods](http://cocoapods.org). To install
+**WTIntExtensions** is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "WTBoolExtensions"
+pod "WTIntExtensions"
 ```
 
 ## Author
@@ -32,4 +29,4 @@ Wagner Truppel, trupwl@gmail.com
 
 ## License
 
-**WTBoolExtensions** is available under the MIT license. See the LICENSE file for more info.
+**WTIntExtensions** is available under the MIT license. See the LICENSE file for more info.

@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		607FACEC1AFB9204008FA782 /* WTBoolExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* WTBoolExtensionsTests.swift */; };
-		EEB3EF2C3122094CFBD8A466 /* Pods_WTBoolExtensions_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 026F5ABD38EC47FF7DC7B6A7 /* Pods_WTBoolExtensions_Tests.framework */; };
+		607FACEC1AFB9204008FA782 /* WTIntExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* WTIntExtensionsTests.swift */; };
+		EEB3EF2C3122094CFBD8A466 /* Pods_WTIntExtensions_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 026F5ABD38EC47FF7DC7B6A7 /* Pods_WTIntExtensions_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		026F5ABD38EC47FF7DC7B6A7 /* Pods_WTBoolExtensions_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WTBoolExtensions_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1CFD576C7506E2FD669EF51C /* WTBoolExtensions.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WTBoolExtensions.podspec; path = ../WTBoolExtensions.podspec; sourceTree = "<group>"; };
-		607FACE51AFB9204008FA782 /* WTBoolExtensions_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WTBoolExtensions_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		026F5ABD38EC47FF7DC7B6A7 /* Pods_WTIntExtensions_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WTIntExtensions_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CFD576C7506E2FD669EF51C /* WTIntExtensions.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WTIntExtensions.podspec; path = ../WTIntExtensions.podspec; sourceTree = "<group>"; };
+		607FACE51AFB9204008FA782 /* WTIntExtensions_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WTIntExtensions_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* WTBoolExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTBoolExtensionsTests.swift; sourceTree = "<group>"; };
+		607FACEB1AFB9204008FA782 /* WTIntExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTIntExtensionsTests.swift; sourceTree = "<group>"; };
 		649E175066A7189F9D8EC2B3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		9A53EC712AD0F03E028380B6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		A0731DCB61A7B3573B1A0F70 /* Pods-WTBoolExtensions_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WTBoolExtensions_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WTBoolExtensions_Tests/Pods-WTBoolExtensions_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C147E2D2020FF117C8CA98F0 /* Pods-WTBoolExtensions_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WTBoolExtensions_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WTBoolExtensions_Tests/Pods-WTBoolExtensions_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A0731DCB61A7B3573B1A0F70 /* Pods-WTIntExtensions_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WTIntExtensions_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WTIntExtensions_Tests/Pods-WTIntExtensions_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C147E2D2020FF117C8CA98F0 /* Pods-WTIntExtensions_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WTIntExtensions_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WTIntExtensions_Tests/Pods-WTIntExtensions_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,7 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEB3EF2C3122094CFBD8A466 /* Pods_WTBoolExtensions_Tests.framework in Frameworks */,
+				EEB3EF2C3122094CFBD8A466 /* Pods_WTIntExtensions_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +38,8 @@
 		304F6D1844B0C93A6D8DE584 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A0731DCB61A7B3573B1A0F70 /* Pods-WTBoolExtensions_Tests.debug.xcconfig */,
-				C147E2D2020FF117C8CA98F0 /* Pods-WTBoolExtensions_Tests.release.xcconfig */,
+				A0731DCB61A7B3573B1A0F70 /* Pods-WTIntExtensions_Tests.debug.xcconfig */,
+				C147E2D2020FF117C8CA98F0 /* Pods-WTIntExtensions_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -58,7 +58,7 @@
 		607FACD11AFB9204008FA782 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				607FACE51AFB9204008FA782 /* WTBoolExtensions_Tests.xctest */,
+				607FACE51AFB9204008FA782 /* WTIntExtensions_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -66,7 +66,7 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				607FACEB1AFB9204008FA782 /* WTBoolExtensionsTests.swift */,
+				607FACEB1AFB9204008FA782 /* WTIntExtensionsTests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
 			path = Tests;
@@ -83,7 +83,7 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				1CFD576C7506E2FD669EF51C /* WTBoolExtensions.podspec */,
+				1CFD576C7506E2FD669EF51C /* WTIntExtensions.podspec */,
 				9A53EC712AD0F03E028380B6 /* README.md */,
 				649E175066A7189F9D8EC2B3 /* LICENSE */,
 			);
@@ -93,7 +93,7 @@
 		912445907EC2940AE873183B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				026F5ABD38EC47FF7DC7B6A7 /* Pods_WTBoolExtensions_Tests.framework */,
+				026F5ABD38EC47FF7DC7B6A7 /* Pods_WTIntExtensions_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -101,9 +101,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		607FACE41AFB9204008FA782 /* WTBoolExtensions_Tests */ = {
+		607FACE41AFB9204008FA782 /* WTIntExtensions_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "WTBoolExtensions_Tests" */;
+			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "WTIntExtensions_Tests" */;
 			buildPhases = (
 				27FC629C36DDB7BE889C7512 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
@@ -116,9 +116,9 @@
 			);
 			dependencies = (
 			);
-			name = WTBoolExtensions_Tests;
+			name = WTIntExtensions_Tests;
 			productName = Tests;
-			productReference = 607FACE51AFB9204008FA782 /* WTBoolExtensions_Tests.xctest */;
+			productReference = 607FACE51AFB9204008FA782 /* WTIntExtensions_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -138,7 +138,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "WTBoolExtensions" */;
+			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "WTIntExtensions" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -151,7 +151,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				607FACE41AFB9204008FA782 /* WTBoolExtensions_Tests */,
+				607FACE41AFB9204008FA782 /* WTIntExtensions_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -179,7 +179,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WTBoolExtensions_Tests/Pods-WTBoolExtensions_Tests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WTIntExtensions_Tests/Pods-WTIntExtensions_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		27FC629C36DDB7BE889C7512 /* [CP] Check Pods Manifest.lock */ = {
@@ -209,7 +209,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WTBoolExtensions_Tests/Pods-WTBoolExtensions_Tests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WTIntExtensions_Tests/Pods-WTIntExtensions_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -219,7 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACEC1AFB9204008FA782 /* WTBoolExtensionsTests.swift in Sources */,
+				607FACEC1AFB9204008FA782 /* WTIntExtensionsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,7 +315,7 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A0731DCB61A7B3573B1A0F70 /* Pods-WTBoolExtensions_Tests.debug.xcconfig */;
+			baseConfigurationReference = A0731DCB61A7B3573B1A0F70 /* Pods-WTIntExtensions_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -335,7 +335,7 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C147E2D2020FF117C8CA98F0 /* Pods-WTBoolExtensions_Tests.release.xcconfig */;
+			baseConfigurationReference = C147E2D2020FF117C8CA98F0 /* Pods-WTIntExtensions_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -352,7 +352,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "WTBoolExtensions" */ = {
+		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "WTIntExtensions" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACED1AFB9204008FA782 /* Debug */,
@@ -361,7 +361,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "WTBoolExtensions_Tests" */ = {
+		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "WTIntExtensions_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACF31AFB9204008FA782 /* Debug */,

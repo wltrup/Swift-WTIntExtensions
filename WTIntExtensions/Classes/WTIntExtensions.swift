@@ -1,6 +1,6 @@
 /*
- WTBoolExtensions.swift
- WTBoolExtensions
+ WTIntExtensions.swift
+ WTIntExtensions
 
  Created by Wagner Truppel on 2016.12.03
 
@@ -29,25 +29,53 @@
  When crediting me (Wagner Truppel) for this work, please use one
  of the following two suggested formats:
 
- Uses "WTBoolExtensions" by Wagner Truppel
+ Uses "WTIntExtensions" by Wagner Truppel
  https://github.com/wltrup
 
  or
 
- WTBoolExtensions by Wagner Truppel
+ WTIntExtensions by Wagner Truppel
  https://github.com/wltrup
  */
 
 import Foundation
 
 
-public extension Bool
+public extension Int
 {
-    /// Returns a uniformly-distributed pseudo-random value.
-    public static var random: Bool
+    /// Returns a uniformly-distributed pseudo-random value in the **closed**
+    /// interval [min(a,b), max(a,b)].
+    ///
+    /// - Parameters:
+    ///   - a: any value
+    ///   - b: any value
+    ///
+    /// - Returns: a uniformly-distributed pseudo-random value in the **closed**
+    ///            interval [min(a,b), max(a,b)].
+    ///
+    /// - SeeAlso: `randomNonZero(a:b:)`.
+    public static func random(_ a: Int, _ b: Int) -> Int
     {
         let value = Double(arc4random_uniform(UInt32.max)) / Double(UInt32.max - 1)
-        return value <= 0.5
+        return Int(Double(a) + Double(b - a) * value)
+    }
+
+    /// Returns a uniformly-distributed pseudo-random **non-zero** value in the
+    /// **closed** interval [min(a,b), max(a,b)].
+    ///
+    /// - Parameters:
+    ///   - a: any value
+    ///   - b: any value
+    ///
+    /// - Returns: a uniformly-distributed **non-zero** pseudo-random value in
+    ///            the **closed** interval [min(a,b), max(a,b)].
+    ///
+    /// - SeeAlso: `random(a:b:)`.
+    public static func randomNonZero(_ a: Int, _ b: Int) -> Int
+    {
+        var r: Int = 0
+        while r == 0 { r = Int.random(a, b) }
+        return r
     }
 }
 

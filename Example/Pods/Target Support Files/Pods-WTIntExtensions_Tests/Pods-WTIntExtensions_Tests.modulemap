@@ -1,0 +1,6 @@
+framework module Pods_WTIntExtensions_Tests {
+  umbrella header "Pods-WTIntExtensions_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

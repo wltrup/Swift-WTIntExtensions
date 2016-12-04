@@ -1,16 +1,16 @@
 PODS:
-  - WTBoolExtensions (1.0.0)
+  - WTIntExtensions (1.0.0)
 
 DEPENDENCIES:
-  - WTBoolExtensions (from `../`)
+  - WTIntExtensions (from `../`)
 
 EXTERNAL SOURCES:
-  WTBoolExtensions:
+  WTIntExtensions:
     :path: "../"
 
 SPEC CHECKSUMS:
-  WTBoolExtensions: de02c5967d6575efc0b3d0c8fd2e11300ac70aca
+  WTIntExtensions: c6d97b82e8e90f78babb3f54e4c4f194c76f8396
 
-PODFILE CHECKSUM: 4e4833d5887ef987e4df25e87405dc0ff3ae47fd
+PODFILE CHECKSUM: e9876a7fdf219968c338ec4b6d63b49eda818ff6
 
 COCOAPODS: 1.1.1

@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## WTBoolExtensions
+## WTIntExtensions
 
 Copyright (c) 2016 Wagner Truppel <trupwl@gmail.com>
 

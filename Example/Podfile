@@ -1,6 +1,6 @@
 use_frameworks!
-target 'WTBoolExtensions_Tests' do
-  pod 'WTBoolExtensions', :path => '../'
+target 'WTIntExtensions_Tests' do
+  pod 'WTIntExtensions', :path => '../'
   
   
 end

@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:WTBoolExtensions.xcodeproj">
+      location = "self:WTIntExtensions.xcodeproj">
    </FileRef>
 </Workspace>

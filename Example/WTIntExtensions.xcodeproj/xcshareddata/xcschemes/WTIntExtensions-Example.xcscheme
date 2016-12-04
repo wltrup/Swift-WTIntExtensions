@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-               BuildableName = "WTBoolExtensions_Example.app"
-               BlueprintName = "WTBoolExtensions_Example"
-               ReferencedContainer = "container:WTBoolExtensions.xcodeproj">
+               BuildableName = "WTIntExtensions_Example.app"
+               BlueprintName = "WTIntExtensions_Example"
+               ReferencedContainer = "container:WTIntExtensions.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "WTBoolExtensions_Tests.xctest"
-               BlueprintName = "WTBoolExtensions_Tests"
-               ReferencedContainer = "container:WTBoolExtensions.xcodeproj">
+               BuildableName = "WTIntExtensions_Tests.xctest"
+               BlueprintName = "WTIntExtensions_Tests"
+               ReferencedContainer = "container:WTIntExtensions.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -48,9 +48,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "WTBoolExtensions_Tests.xctest"
-               BlueprintName = "WTBoolExtensions_Tests"
-               ReferencedContainer = "container:WTBoolExtensions.xcodeproj">
+               BuildableName = "WTIntExtensions_Tests.xctest"
+               BlueprintName = "WTIntExtensions_Tests"
+               ReferencedContainer = "container:WTIntExtensions.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -58,9 +58,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "WTBoolExtensions_Example.app"
-            BlueprintName = "WTBoolExtensions_Example"
-            ReferencedContainer = "container:WTBoolExtensions.xcodeproj">
+            BuildableName = "WTIntExtensions_Example.app"
+            BlueprintName = "WTIntExtensions_Example"
+            ReferencedContainer = "container:WTIntExtensions.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -81,9 +81,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "WTBoolExtensions_Example.app"
-            BlueprintName = "WTBoolExtensions_Example"
-            ReferencedContainer = "container:WTBoolExtensions.xcodeproj">
+            BuildableName = "WTIntExtensions_Example.app"
+            BlueprintName = "WTIntExtensions_Example"
+            ReferencedContainer = "container:WTIntExtensions.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -100,9 +100,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "WTBoolExtensions_Example.app"
-            BlueprintName = "WTBoolExtensions_Example"
-            ReferencedContainer = "container:WTBoolExtensions.xcodeproj">
+            BuildableName = "WTIntExtensions_Example.app"
+            BlueprintName = "WTIntExtensions_Example"
+            ReferencedContainer = "container:WTIntExtensions.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

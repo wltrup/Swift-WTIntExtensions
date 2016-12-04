@@ -1,0 +1,6 @@
+framework module WTIntExtensions {
+  umbrella header "WTIntExtensions-umbrella.h"
+
+  export *
+  module * { export * }
+}
