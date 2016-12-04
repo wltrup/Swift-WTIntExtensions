@@ -2,8 +2,9 @@
 # * http://www.objc.io/issue-6/travis-ci.html
 # * https://github.com/supermarin/xcpretty#usage
 
-osx_image: xcode8.1
-language: swift3.0
+language: objective-c
+osx_image: xcode8
+script: — xcodebuild clean build -workspace WTIntExtensions.xcworkspace -scheme WTIntExtensions -destination “platform=iOS Simulator,name=iPhone 6S”
 # cache: cocoapods
 # podfile: Example/Podfile
 # before_install:
