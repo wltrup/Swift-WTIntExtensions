@@ -14,6 +14,10 @@ public static func random(_ a: Int, _ b: Int) -> Int
 public static func randomNonZero(_ a: Int, _ b: Int) -> Int
 ```
 
+## Tests
+
+**WTIntExtensions** adds 2 extensions, fully tested by 3 tests with 100% coverage.
+
 ## Installation
 
 **WTIntExtensions** is available through [CocoaPods](http://cocoapods.org). To install
