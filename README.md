@@ -7,7 +7,7 @@
 
 ## What
 
-**WTIntExtensions** adds methods to generate uniformly-distributed pseudo-random integer values:
+**WTIntExtensions** adds methods to generate  uniformly-distributed pseudo-random integer values:
 
 ```swift
 public static func random(_ a: Int, _ b: Int) -> Int
