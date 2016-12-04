@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
     WTIntExtensions adds methods to generate uniformly-distributed pseudo-random integer values.
                        DESC
 
-  s.homepage         = 'https://github.com/wltrup/WTIntExtensions'
+  s.homepage         = 'https://github.com/wltrup/Swift-WTIntExtensions'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Wagner Truppel' => 'trupwl@gmail.com' }
-  s.source           = { :git => 'https://github.com/wltrup/WTIntExtensions.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/wltrup/Swift-WTIntExtensions.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
