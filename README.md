@@ -18,6 +18,11 @@ public static func randomNonZero(_ a: Int, _ b: Int) -> Int
 
 **WTIntExtensions** adds 2 extensions, fully tested by 3 tests with 100% coverage.
 
+## Changelog
+
+Changes to **WTIntExtensions** are listed
+[here](https://github.com/wltrup/Swift-WTIntExtensions/blob/master/CHANGELOG.md).
+
 ## Installation
 
 **WTIntExtensions** is available through [CocoaPods](http://cocoapods.org). To install

@@ -14,6 +14,7 @@
 /* Begin PBXFileReference section */
 		026F5ABD38EC47FF7DC7B6A7 /* Pods_WTIntExtensions_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WTIntExtensions_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CFD576C7506E2FD669EF51C /* WTIntExtensions.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WTIntExtensions.podspec; path = ../WTIntExtensions.podspec; sourceTree = "<group>"; };
+		3B7C316E1DF54898008D4CD3 /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = CHANGELOG.md; path = ../CHANGELOG.md; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* WTIntExtensions_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WTIntExtensions_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* WTIntExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTIntExtensionsTests.swift; sourceTree = "<group>"; };
@@ -85,6 +86,7 @@
 			children = (
 				1CFD576C7506E2FD669EF51C /* WTIntExtensions.podspec */,
 				9A53EC712AD0F03E028380B6 /* README.md */,
+				3B7C316E1DF54898008D4CD3 /* CHANGELOG.md */,
 				649E175066A7189F9D8EC2B3 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
