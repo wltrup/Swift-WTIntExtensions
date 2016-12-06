@@ -11,12 +11,16 @@
 
 ```swift
 public static func random(_ a: Int, _ b: Int) -> Int
-public static func randomNonZero(_ a: Int, _ b: Int) -> Int
+public static func randomNonZero(_ a: Int, _ b: Int) throws -> Int
 ```
+
+## Why
+
+Because who doesn't keep re-implementing random number generators time and again?
 
 ## Tests
 
-**WTIntExtensions** adds 2 extensions, fully tested by 3 tests with 100% coverage.
+**WTIntExtensions** adds 2 extensions, fully tested by 4 tests with 100% coverage.
 
 ## Changelog
 

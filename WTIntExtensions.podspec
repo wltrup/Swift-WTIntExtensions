@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'WTIntExtensions'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'WTIntExtensions adds methods to generate pseudo-random integer values.'
   s.description      = <<-DESC
     WTIntExtensions adds methods to generate uniformly-distributed pseudo-random integer values.

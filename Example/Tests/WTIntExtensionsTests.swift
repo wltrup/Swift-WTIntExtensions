@@ -13,7 +13,7 @@ import WTIntExtensions
 
 class WTIntExtensionsTests: XCTestCase
 {
-    let N = 10_000
+    let N = 1_000
     let min = -100
     let max =  100
 
@@ -25,10 +25,26 @@ class WTIntExtensionsTests: XCTestCase
         }
     }
 
+    func test_randomNonZeroThrowsOnBothArgumentsZero()
+    {
+        do {
+            let _ = try Int.randomNonZero(0, 0)
+            XCTFail()
+        }
+        catch {
+            let expectedError = WTIntExtensionsError.allArgumentsAreZero
+            let resultedError = error
+
+            XCTAssertTrue(resultedError is WTIntExtensionsError)
+            if let resultedError = resultedError as? WTIntExtensionsError
+            { XCTAssertEqual(resultedError, expectedError) }
+        }
+    }
+    
     func test_randomNonZeroGeneratesValuesInTheExpectedRange()
     {
         (1...N).forEach { _ in
-            let r = Int.randomNonZero(min, max)
+            let r = try! Int.randomNonZero(min, max)
             XCTAssertTrue(r >= min && r <= max)
         }
     }
@@ -36,7 +52,7 @@ class WTIntExtensionsTests: XCTestCase
     func test_randomNonZeroGeneratesNonZeroValues()
     {
         (1...N).forEach { _ in
-            let r = Int.randomNonZero(min, max)
+            let r = try! Int.randomNonZero(min, max)
             XCTAssertTrue(r != 0)
         }
     }

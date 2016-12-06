@@ -41,6 +41,20 @@
 import Foundation
 
 
+/// An enumeration describing the possible errors that can be thrown when
+/// using functions from the extended `Int` APIs provided by **WTIntExtensions**.
+///
+/// - **allArgumentsAreZero**:
+///            Signifies that a function was called with its arguments
+///            all equal to zero when it was meant to be called with at
+///            least one non-zero argument.
+public enum WTIntExtensionsError: Error
+{
+    case allArgumentsAreZero
+}
+
+// MARK: -
+
 public extension Int
 {
     /// Returns a uniformly-distributed pseudo-random value in the **closed**
@@ -70,9 +84,12 @@ public extension Int
     /// - Returns: a uniformly-distributed **non-zero** pseudo-random value in
     ///            the **closed** interval [min(a,b), max(a,b)].
     ///
+    /// - Throws: WTIntExtensionsError.allArgumentsAreZero if both a = 0 and b = 0.
+    ///
     /// - SeeAlso: `random(a:b:)`.
-    public static func randomNonZero(_ a: Int, _ b: Int) -> Int
+    public static func randomNonZero(_ a: Int, _ b: Int) throws -> Int
     {
+        guard a != 0 || b != 0 else { throw WTIntExtensionsError.allArgumentsAreZero }
         var r: Int = 0
         while r == 0 { r = Int.random(a, b) }
         return r
