@@ -5,6 +5,9 @@
 [![License](https://img.shields.io/cocoapods/l/WTIntExtensions.svg?style=flat)](http://cocoapods.org/pods/WTIntExtensions)
 [![Platform](https://img.shields.io/cocoapods/p/WTIntExtensions.svg?style=flat)](http://cocoapods.org/pods/WTIntExtensions)
 
+## IMPORTANT
+2019.11.30: This project has been **deprecated** since the Swift Standard Library now has precisely the functionality that this library provides.
+
 ## What
 
 **WTIntExtensions** adds methods to generate uniformly-distributed pseudo-random integer values:
